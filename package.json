@@ -1,0 +1,39 @@
+{
+  "name": "http-drawer",
+  "version": "0.5.0",
+  "description": "simple http framework with drawer which is handling file read/write in simple way",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_module/mocha/bin/mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumji/http-drawer.git", "git+https://github.com/Tallglass9000/Drawer-framework"
+  },
+  "keywords": [
+    "http"
+  ],
+  "author": "Kumji Park", "Monica Wu"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kumji/http-drawer/issues"
+  },
+  "homepage": "https://github.com/kumji/http-drawer#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "chai-http": "^1.0.0",
+    "fs": "0.0.2",
+    "gulp": "^3.9.0",
+    "http": "0.0.0",
+    "mocha": "^2.3.2",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
+  },
+  "dependencies": {
+    "superagent": "^1.4.0",
+    "superagent-cli": "^2.0.0"
+  }
+}
